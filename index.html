@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Sales Landing Page</title>
+    <link href="styles.css" rel="stylesheet">
+    <script src="script.js"></script>
+   
+    
+</head>
+<body>
+    <header>
+        <nav>
+            <div ><img class="logo" src="cars/logo.jpeg"></div>
+
+            <div ><h2>Cars Sales</h2></div>
+           
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#cars">Cars</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="slider">
+            <button class="prev" onclick="previous()">&#10094;</button>
+            <div class="color-options">
+                <span class="color black" onclick="changeColor(0)"></span>
+                <span class="color white" onclick="changeColor(1)"></span>
+                <span class="color yellow" onclick="changeColor(2)"></span>
+                <span class="color red" onclick="changeColor(3)"></span>
+            </div>
+
+            <div class="slide">
+                <h2 class="title">Porche 911</h2>
+                 <img class="car_image" id="imgSlider" src="cars/porche-black.webp" alt="Car 1">
+                <div class="slide-content">
+                    
+                    <p class="description">The Porsche 911 is a legendary sports car known for its iconic design, powerful performance, and agile handling. It combines luxury with speed, featuring a sleek body, turbocharged engine, and a high-quality interior for an exceptional driving experience.</p>
+                </div>
+
+            </div>
+           
+           
+           
+            <button class="next" onclick="next()">&#10095;</button>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>About Us</h3>
+                <p>We are dedicated to providing the best car deals in town.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Contact</h3>
+                <p>Email: info@carsales.com</p>
+                <p>Phone: (123) 456-7890</p>
+            </div>
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <p>Facebook | Twitter | Instagram</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Car Sales. All rights reserved.</p>
+        </div>
+    </footer>
+
+   
+</body>
+</html>

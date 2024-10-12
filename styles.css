@@ -1,0 +1,146 @@
+body {
+    margin: 0;
+    padding: 0px;
+    font-family: Arial, sans-serif;
+}
+ nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+li a{
+    text-decoration: none;
+color: aliceblue;
+border: 10px solid black;
+}
+li a:hover{
+background-color: white;
+color: black;
+border: 10px solid rgb(248, 247, 247);
+border-radius: 30%;
+
+}
+
+
+
+nav{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 10px;
+}
+ h2{
+    color: white;
+}
+.logo {
+    width: 80px;
+    height: 50px;
+    border-radius: 20%;
+    
+}
+.burger{
+    display: none;
+}
+#slider{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: grey;
+
+}
+.slide{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 70%;
+   
+}
+.slide img{
+    max-width: 60%;
+    min-width: 60%;
+    min-height: 30%;
+    max-height: 30%;
+    border-radius: 1%;
+
+}
+#slider button{
+    width: 50px;
+    height: 50px;
+    margin-right: 5em;
+}
+
+.color-options {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 5em;
+}
+
+.color {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.black {
+    background-color: black;
+}
+
+.white {
+    background-color: white;
+}
+
+.yellow {
+    background-color: #F4D03F;
+}
+
+.red {
+    background-color: red;
+}
+.description{
+    color: white;
+text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 2rem 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    margin-bottom: 1rem;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 1rem;
+    padding-top: 1rem;
+    border-top: 1px solid #555;
+}
